@@ -37,9 +37,6 @@ h3 {
 .home-cover {
     height: 100%;
     background-image: url("../img/bg-home.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 .home-content-box {
     width: 100%;
@@ -59,9 +56,19 @@ h3 {
     font-weight: 700;
     margin: 20px 0 20px 0;
 }
+/* ==============================================
+|   |   |   |    Parallax
+=============================================== */
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 
 /* ==============================================
-|   |   |   |    Home
+|   |   |   |    Buttons
 =============================================== */
 .btn-general {
     border-width: 2px;
@@ -83,9 +90,26 @@ h3 {
     color: #41464b;
 }
 
+/* ==============================================
+|   |   |   |    Animate
+=============================================== */
+.home-cover,
+.home-heading,
+.home-btn {
+    animation-duration: .5s;
+}
 
+.home-cover {
+    animation-delay: .1s;
+}
 
+.home-heading {
+    animation-delay: .5s;
+}
 
+.home-btn {
+    animation-delay: 1s;
+}
 
 
 
