@@ -36,7 +36,18 @@ $(function () {
        autoplay: true,
        smartSpeed: 700,
        loop: true,
-       autoplayHoverPause: true
+       autoplayHoverPause: true,
+       responsive: {
+           0: {
+               items: 1
+           },
+           480: {
+               items: 2
+           },
+           768: {
+               items: 3
+           }
+       }
 
    });
 });
@@ -81,7 +92,21 @@ $(function () {
        autoplay: true,
        smartSpeed: 700,
        loop: true,
-       autoplayHoverPause: true
+       autoplayHoverPause: true,
+        responsive: {
+           0: {
+                items: 1
+           },
+            480: {
+                items: 3
+            },
+            768: {
+                items: 5
+            },
+            992: {
+               items: 6
+            }
+        }
     });
 
 });
@@ -116,6 +141,14 @@ $(window).on('load', function () {
     // Show info window when user clicks marker
     marker.addListener('click', function () {
         infowindow.open(map, marker);
+    });
+
+    // 4. Resize Function
+    google.maps.event.addDomListener(window, 'resize', function() {
+
+        var center = map.getCenter();
+        google.maps.event.trigger(map, 'resize');
+        map.setCenter(center);
     });
 
 
@@ -157,3 +190,4 @@ $(function () {
        }, 1250, "easeInOutExpo");
     });
 });
+
