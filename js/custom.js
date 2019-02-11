@@ -83,3 +83,38 @@ $(function () {
     });
 
 });
+
+/* ================================
+|   |   |   Google Map
+================================ */
+$(window).on('load', function () {
+
+    // Map Variables
+    var addressString = '7900 Santa Monica Blvd, CA, West Hollywood, 90046, USA';
+    var myLatlng = {lat: 34.090540, lng: -118.361750};
+
+    //1. Render Map
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: myLatlng
+    });
+
+    // 2. Add Marker
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: "Click To See Address"
+    });
+
+    // 3. Add Info Window
+    var infowindow = new google.maps.InfoWindow({
+        content: addressString
+    });
+
+    // Show info window when user clicks marker
+    marker.addListener('click', function () {
+        infowindow.open(map, marker);
+    });
+
+
+});

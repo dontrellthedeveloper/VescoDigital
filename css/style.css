@@ -525,6 +525,17 @@ form .form-control {
     color: #fff;
 }
 
+/* ================================
+| | |  Google Map
+================================ */
+#map {
+    height: 600px;
+}
+
+#google-map .row {
+    display: block !important;
+}
+
 
 /* ==============================================
 |   |   |   |    Footer
