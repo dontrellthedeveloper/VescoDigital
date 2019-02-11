@@ -38,15 +38,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3167" />
-          <entry key="html" value="5108" />
+          <entry key="css" value="3410" />
+          <entry key="html" value="5469" />
           <entry key="js" value="342" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3167" />
-          <entry key="HTML" value="5108" />
+          <entry key="CSS" value="3410" />
+          <entry key="HTML" value="5469" />
           <entry key="JavaScript" value="342" />
         </counts>
       </usages-collector>
@@ -54,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="644" column="13" lean-forward="true" selection-start-line="644" selection-start-column="13" selection-end-line="644" selection-end-column="13" />
+            <state relative-caret-position="411">
+              <caret line="669" column="18" lean-forward="true" selection-start-line="669" selection-start-column="18" selection-end-line="669" selection-end-column="18" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -70,16 +70,18 @@
                 <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#33489#33495#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="524" column="16" selection-start-line="524" selection-start-column="16" selection-end-line="524" selection-end-column="16" />
+            <state relative-caret-position="673">
+              <caret line="569" column="19" selection-start-line="569" selection-start-column="19" selection-end-line="569" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -87,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="68" column="3" lean-forward="true" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -106,8 +108,8 @@
       <list>
         <option value="$PROJECT_DIR$/css/owl-carousel/owl.theme.default.min.css" />
         <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -120,7 +122,7 @@
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-1440" />
     <option name="y" value="180" />
-    <option name="width" value="1028" />
+    <option name="width" value="625" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -199,19 +201,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549769981002</updated>
-      <workItem from="1549769982312" duration="29686000" />
+      <workItem from="1549769982312" duration="31777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29686000" />
+    <option name="totallyTimeSpent" value="31777000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1440" y="180" width="1028" height="900" extended-state="6" />
+    <frame x="-1440" y="180" width="625" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2164846" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36092716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -264,18 +266,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="68" column="3" lean-forward="true" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="569" column="19" selection-start-line="569" selection-start-column="19" selection-end-line="569" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="644" column="13" lean-forward="true" selection-start-line="644" selection-start-column="13" selection-end-line="644" selection-end-column="13" />
+        <state relative-caret-position="411">
+          <caret line="669" column="18" lean-forward="true" selection-start-line="669" selection-start-column="18" selection-end-line="669" selection-end-column="18" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -287,14 +296,9 @@
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#33489#33495#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="524" column="16" selection-start-line="524" selection-start-column="16" selection-end-line="524" selection-end-column="16" />
         </state>
       </provider>
     </entry>
